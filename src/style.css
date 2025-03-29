@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+* {
+  scroll-behavior: smooth;
+  @apply transition ease-in-out duration-500;
+}
+
+.teko {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  /* font-style: normal; */
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+:root {
+  --primary-color: #fb5a02;
+  --primary-color-overlay: rgba(135, 75, 20, 0.4);
+  font-family: roboto;
+}
+
+.body-bg {
+  /* background-color: rgb(241,239,231); */
+  /* background-color: #2F2561; */
+  /* background-color: #151515; */
+  background-color: #191c32;
+}
+
+.body-margin {
+  @apply px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8;
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-overlay {
+  /* background-color: var(--primary-color-overlay); */
+  background-color: rgb(20, 20, 20);
+}
+
+.primary-text {
+  color: var(--primary-color);
+}
+
+.content {
+@apply flex flex-col gap-16 md:gap-24;
+}
+
+.my-border-1 {
+  border: 1px solid #424242;
+}
+
+.my-border-2 {
+  border: 2px solid white;
+}
+
+.stroked-text {
+  /* -webkit-text-fill-color: #191c32;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.8); */
+  color: none;
+  text-shadow: 0px 0px 2px white;
+}
+
+.request-quote {
+  background-color: var(--primary-color);
+  @apply ml-4 uppercase text-sm px-6 py-3 rounded-3xl font-medium tracking-widest text-lg transition duration-500;
+}
+
+.request-quote:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.cta-btn {
+  background-color: var(--primary-color);
+  @apply inline-flex px-6 py-3 rounded-lg items-center font-light tracking-widest text-white text-base font-normal uppercase tracking-wider;
+}
+
+.cta-btn:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.feature {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  @apply flex flex-col justify-between p-5 border rounded bg-white;
+}
+
+.portfolio {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  @apply flex flex-col justify-between border rounded bg-white;
+}
+
+.customers {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  @apply flex flex-col justify-between border rounded bg-white;
+}
+
+.shadow-1 {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.shadow-2 {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
