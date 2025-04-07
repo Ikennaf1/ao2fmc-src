@@ -44,7 +44,7 @@
 
 .bg-overlay {
   /* background-color: var(--primary-color-overlay); */
-  background-color: rgb(20, 20, 20);
+  background-color: rgba(20, 20, 20, 0.4);
 }
 
 .primary-text {
