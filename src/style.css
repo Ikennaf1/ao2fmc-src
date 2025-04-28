@@ -22,7 +22,7 @@
 }
 
 :root {
-  --primary-color: #f7e61e;
+  --primary-color: #be791e;
   --primary-color-overlay: rgba(135, 75, 20, 0.4);
   font-family: roboto;
 }
@@ -93,7 +93,7 @@
 
 .feature {
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  @apply flex flex-col justify-between p-5 border rounded bg-white;
+  @apply flex flex-col justify-between p-5 border rounded bg-slate-800 text-[var(--primary-color)];
 }
 
 .portfolio {
