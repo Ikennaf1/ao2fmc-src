@@ -13,6 +13,7 @@ export default defineConfig ({
                 features: resolve(__dirname, 'features/index.html'),
                 about: resolve(__dirname, 'about/index.html'),
                 blog: resolve(__dirname, 'blog/index.html'),
+                residential_rules: resolve(__dirname, 'residential-rules/index.html'),
                 // contact: resolve(__dirname, 'contact/index.html'),
             },
         },
