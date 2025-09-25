@@ -96,6 +96,10 @@
   @apply flex flex-col justify-between p-5 border rounded bg-slate-800 text-[var(--primary-color)];
 }
 
+.feature li{
+  @apply text-gray-200 my-8;
+}
+
 .portfolio {
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   @apply flex flex-col justify-between border rounded bg-white;
